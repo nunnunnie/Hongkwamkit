@@ -13,13 +13,13 @@
   </div>
   <ion-list>
     <ion-item (click)=gotoAbout()>
-      <ion-icon name="book"></ion-icon> คำอธิบาย
+      <ion-icon name="book"></ion-icon> About Us
     </ion-item>
-    <ion-item>
-      <ion-icon name="contact"></ion-icon> เกี่ยวกับ
+    <ion-item (click)=gotoNewClass()>
+      <ion-icon name="contact"></ion-icon> NewClass
     </ion-item>
-    <ion-item>
-      <ion-icon name="reorder"></ion-icon> เพิ่มเติม
+    <ion-item (click)=gotoAddMember()>
+      <ion-icon name="reorder"></ion-icon> AddMember
       </ion-item>
   </ion-list>
 </ion-content>
